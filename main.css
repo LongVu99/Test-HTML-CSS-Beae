@@ -58,14 +58,27 @@ body{
     font-weight: 700;
     margin-left: 265px;
 }
-@media(min-width: 780px){
+@media(min-width: 430px){
     .icon-menu-mobie{
         display: none;
     }
+    .about1{
+        display: none;
+    }
 }
+
 @media(max-width: 428px){
+    .nav-menu{
+        height: 75px;
+    }
     .icon-menu-mobie{
-        margin-left: 180px;
+        margin-left: 270px;
+    }
+    .brand{
+        margin-left: -50px;
+    }
+    .brand h1{
+        font-size: 30px!important;
     }
 }
 @media(max-width: 428px){
@@ -84,12 +97,16 @@ body{
 .nav-menu .icon-menu img{
     height: 32px;
 }
+.heading-about{
+    margin-top: -20px!important;
+}
 .heading-about p{
     margin-top: -30px;
     margin-bottom: 70px;
 }
 .heading-about1{
     display: flex;
+    margin-top: -5px;
 }
 .heading-about h3{
    margin-top: 100px;
@@ -109,6 +126,31 @@ body{
     .heading-about h3{
         font-size: 36px!important;
         margin-left: 110px;
+    }
+    .heading-about1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about1{
+        width: 428px!important;
+        height: 369px;
+        margin-left: -20px;
+        background-color: #E5F8FD;
+        text-align: center;
+    }
+    .about1 p{
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: capitalize;
+        padding: 0px 50px;
+        line-height: 40px;
+    }
+    .about1 button{
+        border: 0px;
+        padding: 11px 19px;
+        background-color: #E76088;
+        border-radius: 10px;
     }
 }
 .about{
@@ -133,7 +175,7 @@ body{
 }
 @media(max-width: 428px){
     .about-right img{
-        max-width: 428px;
+        max-width: 100%;
     }
 }
 
@@ -151,18 +193,20 @@ body{
 }
 .Proud-of{
     width: 1410px;
+    margin-top: -15px;
 }
 @media(max-width: 428px){
     .box{
         max-width: 428px;
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 20px;
     }
     .Proud-of h1{
         width: 428px;
         font-size: 36px!important;
         margin-left: -20px;
+        margin-bottom: 60px!important;
     }
     .Proud-of .box .box1{
         width: 388px!important;
@@ -180,7 +224,6 @@ body{
     font-size: 54px;
     font-weight: 700;
     line-height: 70px;
-    letter-spacing: 0em;
     text-align: center;
     color: #1A1114;
     margin-top: 100px;
@@ -220,7 +263,7 @@ body{
     width: 1410px;
     height: 675px;
     display: flex;
-    margin-top: 80px;
+    margin-top: 100px;
     gap: 30px;
 }
 @media(max-width: 428px){
@@ -259,6 +302,7 @@ body{
     width: 1410px;
     height: 510px;
     margin-bottom: 83px;
+    margin-top: -10px;
 }
 @media(max-width: 428px){
     .our-team{
@@ -271,6 +315,9 @@ body{
     .our-team h1{
        margin-left: 74px;
     }
+    .box{
+        margin-top: -45px;
+    }
     .box2{
        width: 388px!important;
     }
@@ -278,7 +325,7 @@ body{
         display: none!important;
     }
     .footer{
-        margin-top: 160px!important;
+        margin-top: 98px!important;
     }
     .search{
         max-width: 428px;
@@ -297,7 +344,7 @@ body{
     .search section p{
         width: 356px!important;
         height: 22px;
-        margin-top: -20px!important;
+        margin-top: -35px!important;
         margin-left: 20px!important;
     }
     #search-form{
@@ -314,6 +361,7 @@ body{
         max-width: 428px;
         display: flex;
         flex-wrap: wrap;
+        margin-top: 40px!important;
         gap: 30px;
     }
     .menu-footer .links{
@@ -327,6 +375,7 @@ body{
     .menu-footer .follow{
         width: 428px!important;
         margin-left: 0px;
+        margin-top: -20px;
     }
     .brand-text{
         width: 428px!important;
@@ -355,7 +404,7 @@ body{
 .box2 .icon-social{
     position: absolute;
     width: 96px;
-    height: 20px;
+    height: 18px;
     margin-top: -55px;
     margin-left: -48px;
 }
@@ -389,6 +438,7 @@ body{
     align-items: center;
     /* justify-content: space-around; */
     margin-bottom: 50px;
+    margin-top: 95px;
 }
 .icon-ship{
     width: 309px;
@@ -450,6 +500,7 @@ body{
 }
 .footer{
     width: 1410px;
+    margin-top: 80px;
 }
 .search{
     display: flex;
