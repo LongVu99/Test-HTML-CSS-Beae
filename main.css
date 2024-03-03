@@ -257,6 +257,8 @@ body{
     font-family: Open Sans;
     font-size: 15px;
     font-weight: 400;
+    padding: 0px 30px;
+    line-height: 26px;
     color: #0A1E23;    
 }
 .about-img{
